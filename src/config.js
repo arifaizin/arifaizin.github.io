@@ -1,22 +1,22 @@
 module.exports = {
-  siteTitle: 'Chandrika Deb | Software Developer | Content Freelancer',
+  siteTitle: 'Arif Aizin | Software Developer',
   siteDescription:
-    'Chandrika Deb is a Software Developer at Amdocs, who loves learning new things and helping tech beginners.',
+    'Arif Aizin is a Software Developer who loves learning new things and building projects.',
   siteKeywords:
-    'Chandrika Deb, Chandrika, Deb, chandrikadeb7, software developer, software engineer, content freelancer, face mask, face mask detection, web developer, java developer, pepper content, jamshedpur, amdocs, bit, mesra',
-  siteUrl: 'https://chandrikadeb7.github.io/',
+    'Arif Aizin, arifaizin, software developer, software engineer, web developer',
+  siteUrl: 'https://arifaizin.github.io/',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Chandrika Deb',
-  location: 'Jamshedpur, India',
-  email: 'chandrikadeb7@gmail.com',
-  github: 'https://github.com/chandrikadeb7',
+  googleAnalyticsID: 'UA-XXXXXXXXX-X',
+  googleVerification: '',
+  name: 'Arif Aizin',
+  location: 'Indonesia',
+  email: 'arifaizin@gmail.com',
+  github: 'https://github.com/arifaizin',
   twitterHandle: '@chandrikadeb7',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/chandrikadeb7',
+      url: 'https://github.com/arifaizin',
     },
     {
       name: 'Linkedin',

@@ -1,25 +1,21 @@
-# Steps to push to deployment
+# Steps to deploy to GitHub Pages
 
-  - git clone
+1.  **Install dependencies** (if you haven't already):
+    ```bash
+    npm install --legacy-peer-deps
+    ```
 
-  - cd chandrikadeb7.github.io
+2.  **Build and Deploy**:
+    ```bash
+    npm run deploy
+    ```
+    This command will:
+    - Run `gatsby build` to generate the static site in the `public/` folder.
+    - Use `gh-pages` to push the `public/` folder to the `master` branch of your repository.
 
-  - source ~/.nvm/nvm.sh
-
-  - nvm install node (version 16)
-
-  - npm install -g yarn
-
-  - yarn
-
-  - npm install -g gatsby-cli
-
-  - npm install
-
-  - git add .
-
-  - git commit -am "changes"
-
-  - gatsby build
-
-  - npm run deploy
+3.  **GitHub Settings**:
+    - Go to your repository on GitHub.
+    - Navigate to **Settings** > **Pages**.
+    - Ensure **Source** is set to "Deploy from a branch".
+    - Under **Branch**, select `master` and the folder `/ (root)`.
+    - Click **Save**.
